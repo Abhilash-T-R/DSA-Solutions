@@ -26,7 +26,7 @@ Each folder corresponds to a particular topic (e.g., Arrays, Linked Lists). Insi
 
 - Clone the repository: `git clone https://github.com/yourusername/DSA-Solutions`
 - Navigate to the specific problem directory
-- Each solution will have a `.md` file with the explanation and a `.py`, `.cpp`, `.java` file (depending on your language) with the code.
+- Each solution will have a `.md` file with the explanation and a `.cpp` file with the code.
 
 ## Contributing
 Feel free to fork this repository and submit pull requests for any optimizations or additional problems/solutions.
