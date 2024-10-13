@@ -19,12 +19,3 @@ The `insertion_sort` function works by:
 
 ### Space Complexity
 - O(1) (in-place sorting algorithm)
-
-## How to Run the Code
-### Prerequisites:
-You need a C++ compiler (such as GCC or Clang) to compile and run the program.
-
-### Steps:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/insertion-sort.git
