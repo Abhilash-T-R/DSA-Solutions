@@ -19,12 +19,3 @@ The `bubble_sort` function takes an array of integers and sorts it in-place usin
 
 ### Space Complexity
 - O(1) (in-place sorting algorithm)
-
-## How to Run the Code
-### Prerequisites:
-You need a C++ compiler (such as GCC or Clang) to compile and run the program.
-
-### Steps:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/bubble-sort.git
