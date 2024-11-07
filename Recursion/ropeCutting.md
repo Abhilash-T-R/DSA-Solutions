@@ -2,8 +2,8 @@
 
 This program solves the "Rope Cutting Problem" using recursion. The goal is to cut a rope of length `n` into the maximum number of pieces, where the allowed lengths for each cut are `a`, `b`, and `c`.
 
-## Problem Description
 
+## Problem Description
 Given:
 - A rope of length `n`.
 - Three possible lengths (`a`, `b`, `c`) for each piece that you can cut.
@@ -11,7 +11,6 @@ Given:
 The task is to find the maximum number of pieces the rope can be cut into using the given lengths. If it's not possible to cut the rope, the program returns `-1`.
 
 ### Example
-
 ```cpp
 int n = 5, a = 2, b = 5, c = 1;
 
@@ -35,10 +34,16 @@ The time complexity of this recursive solution is exponential, O(3^n), due to th
 
 
 Explanation
+
 Base cases:
+
 When the remaining length of the rope n is 0, it returns 0 since no more cuts can be made.
 If n becomes negative, it returns -1 because it's impossible to cut the rope into the specified lengths.
+
 Recursive logic:
+
 The function tries to cut the rope by length a, b, and c, and recursively calculates the maximum pieces for the remaining length. It uses the standard std::max function to find the maximum number of cuts possible for each recursive call.
+
 Conclusion
+
 The program provides an efficient way to determine the maximum number of pieces the rope can be cut into using recursive calls. It's a straightforward and effective solution to the rope cutting problem, ideal for small inputs but could be optimized using dynamic programming for larger inputs.
